@@ -1,6 +1,6 @@
-table {
+body table {
   text-align: center; }
-  table td, table th {
+  body table td, body table th {
     padding: 15px 5px;
     display: -webkit-inline-box;
     text-align: center;

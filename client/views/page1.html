@@ -1,21 +1,14 @@
-<div class="musiclistclass collection waves-color-demo" ng-controller="musiclistController">
+<div class="musiclistclass collection waves-color-demo" ng-controller="addMusicController">
         <h5 class="trackClass">Music Tracks</h5>
-        <div class="input-field searchitems col s3">
-            <input id="search_name" type="text" class="validate" ng-model="test">
-            <label class="lablesearch" for="search_name">&#128269; &nbsp;&nbsp;search Song</label>
+        <div class="input-field addSong col s3">
+            <input id="song_name" type="text" class="validate" ng-model="sname">
+            <label class="songnameLable" for="song_name">Song Name</label>
+        </div><br><br><br>
+         <div class="input-field addSong col s3">
+            <input id="song_rating" type="text" class="validate" ng-model="srate" >
+            <label class="songrateLable" for="song_rating">Song Rating</label>
         </div>
-        <div class="musiclist_display">
-                <ul id="uisongId" class="dropupMenu" role="menu" aria-labelledby="simple-btn-keyboard-nav">
-                <li class="songList"  ng-repeat="music in allMusics | filter:test">
-                        <div class="mainList">
-                            <div class="songName">{{music.name}} </div>
-                            <div class="songRate">{{music.rate}}★</div>
-                        </div>
-                </li>
-            </ul>
-        </div>
-        <div class="col s12">
-        <button class="btn waves-effect waves-light newaddbutton"> <a ui-sref="addnewmusic" class="collection-item">Add New Track</a>
-           </button>
+        <div class="col s12"> 
+            <button class="btn waves-effect waves-light newaddbuttonSong" ng-click="addMusic()">SAVE SONG</button>
         </div>
 </div>
