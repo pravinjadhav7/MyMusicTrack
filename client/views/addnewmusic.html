@@ -1,0 +1,14 @@
+<div class="musiclistclass collection waves-color-demo" ng-controller="addMusicController">
+        <h5 class="trackClass">Music Tracks</h5>
+        <div class="input-field addSong col s3">
+            <input id="song_name" type="text" class="validate" ng-model="sname">
+            <label class="songnameLable" for="song_name">Song Name</label>
+        </div><br><br><br>
+         <div class="input-field addSong col s3">
+            <input id="song_rating" type="text" class="validate" ng-model="srate" >
+            <label class="songrateLable" for="song_rating">Song Rating</label>
+        </div>
+        <div class="col s12"> 
+            <button class="btn waves-effect waves-light newaddbuttonSong" ng-click="addMusic()">SAVE SONG</button>
+        </div>
+</div>

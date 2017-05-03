@@ -1,0 +1,10 @@
+table {
+  text-align: center; }
+  table td, table th {
+    padding: 15px 5px;
+    display: -webkit-inline-box;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 2px; }
+
+/*# sourceMappingURL=style.css.map */

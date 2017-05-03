@@ -1,0 +1,54 @@
+.musiclistclass{
+        height: 500px;   
+        margin: 2.5rem 0 1rem 0;
+        border: 6px solid #e0e0e0;
+        border-radius: 71px;
+        width: 752px;
+        left: 332px;
+    .trackClass{
+        padding: 4px 109px 32px 273px;
+    }
+    .searchitems{
+          margin-left: 182px;
+    #search_name{
+          width: 60%;
+    }
+    }
+    ul{
+        max-height: 200px;
+        overflow-y: auto;
+        margin: 0;
+        li{
+                  box-sizing: border-box;
+                  padding: 0 15px;
+                  height: 40px;
+                  cursor: pointer;
+                  outline: none;
+                  box-shadow: none;
+                  border: none;
+                  line-height: 40px;
+                  display: block;
+                  width: 100%;
+                  &:hover {
+                      background-color: #eeeeee;
+                  }
+                  &.selected {
+                      background-color: #eeeeee;
+                  }
+
+                  .mainList{
+                      .songName{
+                               margin-left: 122px;
+                      }
+                      .songRate{
+                                margin-left: 555px;
+                                    margin-top: -40px;
+                      }
+                  }
+        }
+    }
+.newaddbutton{
+        left: 262px;
+    top: 42px;
+}
+}

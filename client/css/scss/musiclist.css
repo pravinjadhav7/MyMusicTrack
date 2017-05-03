@@ -1,0 +1,42 @@
+.musiclistclass {
+  height: 500px;
+  margin: 2.5rem 0 1rem 0;
+  border: 6px solid #e0e0e0;
+  border-radius: 71px;
+  width: 752px;
+  left: 332px; }
+  .musiclistclass .trackClass {
+    padding: 4px 109px 32px 273px; }
+  .musiclistclass .searchitems {
+    margin-left: 182px; }
+    .musiclistclass .searchitems #search_name {
+      width: 60%; }
+  .musiclistclass ul {
+    max-height: 200px;
+    overflow-y: auto;
+    margin: 0; }
+    .musiclistclass ul li {
+      box-sizing: border-box;
+      padding: 0 15px;
+      height: 40px;
+      cursor: pointer;
+      outline: none;
+      box-shadow: none;
+      border: none;
+      line-height: 40px;
+      display: block;
+      width: 100%; }
+      .musiclistclass ul li:hover {
+        background-color: #eeeeee; }
+      .musiclistclass ul li.selected {
+        background-color: #eeeeee; }
+      .musiclistclass ul li .mainList .songName {
+        margin-left: 122px; }
+      .musiclistclass ul li .mainList .songRate {
+        margin-left: 555px;
+        margin-top: -40px; }
+  .musiclistclass .newaddbutton {
+    left: 262px;
+    top: 42px; }
+
+/*# sourceMappingURL=musiclist.css.map */
