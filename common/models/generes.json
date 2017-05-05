@@ -12,7 +12,19 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "name": {
+      "type": "hasMany",
+      "model": "musicapp",
+      "foreignKey": "music_id",
+      "through": "generes"
+    },
+    "musicapps": {
+      "type": "hasMany",
+      "model": "musicapp",
+      "foreignKey": "userId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
