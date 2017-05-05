@@ -16,7 +16,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "generes": {
+      "type": "belongsTo",
+      "model": "generes",
+      "foreignKey": "generes_fk"
+    }
+  },
   "acls": [],
   "methods": {}
 }
